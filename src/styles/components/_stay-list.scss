@@ -1,0 +1,49 @@
+.home-cities {
+  min-height: 59vh;
+}
+
+.stay-img {
+  margin: 0;
+  height: 250px;
+  border-radius: 12px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+  cursor: pointer;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  // margin-top: 180px;
+
+}
+.stay-price {
+  padding-top: 4px;
+}
+.home-cities {
+  display: grid;
+  border-radius: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.num-rew {
+  /* padding: 10px; */
+  color: #717171;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.space-star{
+  margin-left: 6px;
+}
+
+.like-stay{
+  position:relative;
+  top: 30px;
+  right: -380px;
+  z-index: 9;
+  color: rgba(0,0,0,.5019607843137255);
+  fill: rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}

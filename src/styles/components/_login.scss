@@ -1,0 +1,60 @@
+// .login-page {
+//   .form {
+//     background-color: #fff;
+//     // border: 2px solid $gray-400;
+//     border-radius: 5px;
+//   }
+// }
+
+
+.form-input-login {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border: 2px solid #a1a1aa;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-page .form {
+  background-color: #fff;
+  border: 2px solid #a1a1aa;
+  border-radius: 5px;
+}
+
+// *{
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: "Roboto-Regular", sans-serif;
+// }
+
+
+.flex-1 {
+  flex: 1;
+}
+
+
+.py-2 {
+  padding-block: 1rem;
+}
+
+.px-3 {
+  padding-inline: 2rem;
+}
+
+.my-1 {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.0892857143em;
+  font-family: "Roboto-Medium", sans-serif;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}

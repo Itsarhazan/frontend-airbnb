@@ -1,0 +1,35 @@
+
+.el-carousel__container {
+   position: relative;
+   height: 260px;
+ 
+ .el-carousel__arrow{
+   color: black;
+   background-color: white;
+ }
+ }
+ 
+ .el-carousel__item{
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   position: absolute;
+    aspect-ratio: 3 / 2;
+ 
+ } 
+ 
+ .el-carousel__button{
+     z-index: 10;
+     width: 0.4em  !important;
+     height: 0.4rem !important;
+     border-radius:50%;
+     margin-bottom: 10px;
+     padding:4px;
+ 
+ }  
+ 
+ .el-carousel {
+   font-size: 18px;
+    margin: 0;
+    text-align: center; 
+  }

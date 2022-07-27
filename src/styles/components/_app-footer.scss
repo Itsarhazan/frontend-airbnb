@@ -1,0 +1,50 @@
+.app-footer {
+    padding: 1.2rem 1.2rem 1.2rem 0;
+    font-family: 'Cereal-Regular', sans-serif;
+    align-items: center;
+    background-color: #f8f8f8;
+    color: #464646;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+
+    .copy {
+        margin-left: 50px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .privacy {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .terms {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .sitemap {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .footer-icons {
+        margin-right: 40px;
+        .english {
+            svg {
+                margin-bottom: -3px;
+                margin-right: 5px;
+            }
+            margin-right: 40px;
+            text-decoration: underline;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .facebook {
+            margin-right: 20px;
+        }
+        .twitter {
+            margin-right: 20px;
+        }
+    }
+}

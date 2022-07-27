@@ -1,0 +1,293 @@
+        .stay-details {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            .titles-details {
+                h1 {
+                    font-size: 26px;
+                    font-family: Cereal-Regular;
+                    margin-bottom: 10px;
+                }
+                div {
+                    margin-bottom: 20px;
+                }
+                svg {
+                    width: 14px;
+                    height: 14px;
+                }
+                span {
+                    text-decoration: underline;
+                    font-size: 14px;
+                    // margin-right: 6px;
+                }
+                .title-rate {
+                    text-decoration: none;
+                    margin-left: 4px;
+                    font-family: Franklin Gothic;
+                    opacity: 90%;
+                    font-size: 15px;
+                }
+                .title-num-reviews {
+                    font-family: Franklin Gothic;
+                    opacity: 90%;
+                    font-size: 15px;
+                    margin-right: 6px;
+                }
+                .title-address {
+                    margin-left: 6px;
+                    opacity: 90%;
+                }
+            }
+            .gallery-details {
+                display: grid;
+                grid-template-columns: repeat(4, 273px);
+                grid-template-rows: repeat(2, 195px);
+                gap: 8px;
+                .center-img {
+                    grid-column: 1/3;
+                    grid-row: 1/3;
+                    height: 100%;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+                .side-img1 {
+                    grid-column: 3/4;
+                    grid-row: 1/2;
+                    height: 100%;
+                }
+                .side-img2 {
+                    height: 100%;
+                    grid-column: 4/5;
+                    grid-row: 1/2;
+                    border-top-right-radius: 10px;
+                    object-fit: cover;
+                }
+                .side-img3 {
+                    height: 100%;
+                    grid-column: 3/4;
+                    grid-row: 2/3;
+                }
+                .side-img4 {
+                    height: 100%;
+                    grid-column: 4/5;
+                    grid-row: 2/3;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+            .a {
+                display: flex;
+            }
+            section.host-details {
+                display: inline-block;
+            }
+            .host-details {
+                margin-top: 45px;
+                display: inline-block;
+                .host-title {
+                    display: inline-block;
+                    color: inherit;
+                    font-size: 1em;
+                    line-height: inherit;
+                    margin: 0px;
+                    padding: 0px;
+                    ;
+                }
+                span {
+                    font-size: 16px;
+                }
+                h2 {
+                    margin-bottom: 5px;
+                    font-size: 1.4em;
+                }
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    margin-left: 40vh;
+                    border: 1px rgb(172, 168, 168) solid;
+                }
+            }
+            hr {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                width: 100%;
+                opacity: 50%;
+            }
+            .info-check {
+                h4 {
+                    color: rgb(34, 34, 34);
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 4px;
+                }
+                p {
+                    color: rgb(113, 113, 113);
+                    font-family: Cereal-Medium;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                }
+                div {
+                    margin-left: 30px;
+                }
+                section {
+                    display: flex;
+                }
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            .stay-disc {
+                max-width: 600px;
+                h3 {
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    overflow: hidden;
+                }
+            }
+            .title-amenities {
+                font-size: 22px;
+                color: rgb(56, 52, 52);
+            }
+            .amenities-details {
+                .amenities-side {
+                    display: inline-block;
+                    margin-right: 80px;
+                    margin-bottom: 30px;
+                }
+                .amenities-details-left {
+                    display: flex;
+                    margin-top: 12px;
+                    img {
+                        width: 21px;
+                        height: 21px;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                .amenities-details-right {
+                    display: flex;
+                    margin-top: 12px;
+                    img {
+                        width: 21px;
+                        height: 21px;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .long-hr {
+                width: 100%;
+            }
+            .rating-Categories {
+                .title-reviews {
+                    h3 {
+                        font-size: 20px;
+                    }
+                    .rating-reviews {
+                        margin-left: 6px;
+                        margin-right: 5px;
+                    }
+                }
+                .slider-rate {
+                    display: flex;
+                    .left-side-rating {
+                        display: flex;
+                        .slider-left {
+                            margin-left: 80px;
+                        }
+                        div {
+                            margin-bottom: 15px;
+                            font-size: 15px;
+                            margin-top: 3px;
+                        }
+                    }
+                    .right-side-rating {
+                        display: flex;
+                        margin-left: 90px;
+                        .slider-right {
+                            margin-left: 140px;
+                        }
+                        div {
+                            font-size: 15px;
+                            margin-bottom: 15px;
+                            margin-top: 3px;
+                        }
+                    }
+                    .slider {
+                        display: flex;
+                        width: 150px;
+                        margin-left: 80px;
+                        margin-top: 10px;
+                        .slider1,
+                        .slider2,
+                        .slider3,
+                        .slider4,
+                        .slider5,
+                        .slider6 {
+                            height: 4px;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-left: 10px;
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+            }
+            .list-reviews {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin-top: 40px;
+                justify-content: space-between;
+                margin-right: 200px;
+                h4 {
+                    font-family: Cereal-Bold;
+                }
+                .img-user-review {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-right: 10px;
+                    border: 1px rgb(172, 168, 168) solid;
+                }
+                div {
+                    display: inline-block;
+                }
+                .date-review {
+                    margin-bottom: 15px;
+                    margin-top: -13px;
+                    font-size: 14px;
+                    color: rgb(113, 113, 113) !important;
+                }
+                .content-review {
+                    max-width: 412px;
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                }
+            }
+            .btn-show-more {
+                font-size: 15px;
+                border-radius: 10px;
+                border-width: 1px;
+                border-style: solid;
+                padding: 14px 24px;
+                background-color: white;
+                font-family: Cereal-Bold;
+            }
+        }

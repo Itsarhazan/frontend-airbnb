@@ -1,0 +1,20 @@
+// COLOR PALETTE
+$clr1: #e01661;
+$clr2: #6f019c;
+$clr3: #fff;
+$clr4: darken($clr3, 40%);
+$clr5: #222222;
+//clr5 is the main color for all texts
+$clr6: #888888;
+$clr7: #717171;
+// LAYOUT
+$layoutPadding: 80px;
+// DETAILS-LAYOUT
+$detailsPadding: 120px;
+// LAYOUT BREAKPOINTS
+$break-narrow: 1200px;
+$break-normal: 1360px;
+$break-wide: 1920px;
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;

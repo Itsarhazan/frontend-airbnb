@@ -1,0 +1,105 @@
+.dashboard-page {
+   margin-top: 80px;
+   min-height: 75vh;
+
+   h3 {
+      color: $clr1;
+   }
+
+   .main-container {
+      gap: 50px;
+      padding: 0 0 20px 0;
+      border-radius: 13px;
+
+      .dash-header {
+         border-radius: 13px;
+         width: 100%;
+         align-self: center;
+         max-height: 140px;
+
+         .dash-nav {
+            padding: 0px 20px;
+
+            button {
+               display: flex;
+               cursor: pointer;
+               font-family: Cereal-Medium;
+               font-size: 1.1rem;
+               padding: 1px 6px;
+               text-align: center;
+               vertical-align: middle;
+               letter-spacing: 0.2px;
+               border: none;
+               background-color: transparent;
+
+               svg {
+                  margin: 2px 8px;
+               }
+            }
+         }
+      }
+   }
+
+   .stats-container {
+      .dash-stat {
+         margin-left: 26px;
+         padding: 30px 60px;
+         border-radius: 12px;
+         border: 1px solid #ddd;
+         box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+      }
+      span {
+         font-size: 32px;
+         padding: 0 0 10px;
+
+         svg {
+            margin-right: 4px;
+         }
+      }
+
+      .total-revenue {
+         padding: 20px 8px;
+      }
+   }
+
+   .info-container {
+      flex: 4 1;
+      border-radius: 13px;
+
+      .order-table {
+         width: 100%;
+         border-spacing: 0 2px;
+         margin-top: 20px;
+
+         .thead-container {
+            grid-template-columns: repeat(7, 1fr);
+            .stay-title {
+               width: 350px;
+            }
+            .status-title {
+               width: 200px;
+            }
+         }
+      }
+
+      .stay-table {
+         width: 100%;
+         border-spacing: 0 2px;
+         margin-top: 20px;
+
+         .thead-container {
+            grid-template-columns: repeat(4, 1fr);
+         }
+      }
+   }
+
+   //combining both theads
+   .thead-container {
+      display: grid;
+      gap: 10px;
+      align-items: center;
+      text-align: center;
+      font-family: Cereal-Medium;
+      border-bottom: 1px solid #999999;
+   }
+}

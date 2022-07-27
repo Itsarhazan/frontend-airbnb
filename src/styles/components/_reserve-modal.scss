@@ -1,0 +1,30 @@
+.congrats-modal-container {
+   .congrats-modal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      transition: opacity 0.6s;
+      width: 550px;
+      padding: 50px;
+      border-radius: 12px;
+      background-color: #f5f5f5;
+      color: #292929;
+      box-shadow: 0 5px 15px rgb(0 0 0 / 35%);
+
+      .title {
+         font-size: 22px;
+         font-weight: 700;
+         color: #ff385c;
+         margin-bottom: 24px;
+      }
+      
+      .links-container {
+         display: flex;
+         justify-content: space-between;
+         text-decoration: underline;
+         font-weight: 500;
+     }
+   }
+}

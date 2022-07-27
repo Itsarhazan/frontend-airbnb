@@ -1,0 +1,239 @@
+.room-filter-container {
+  position: relative;
+  height: auto;
+
+  .type-filter-container {
+    margin-top: -20px;
+    left: 10px;
+  }
+}
+
+.price-filter-container {
+  position: absolute;
+  top: 240px;
+}
+
+.slider-demo-block {
+  position: absolute;
+  background-color: #fff;
+  border: 0.5px solid rgba(118, 118, 118, 0.28);
+  border-radius: 12px;
+  box-shadow: 0 10px 37px rgb(0 0 0 / 15%);
+  z-index: 10;
+  margin: 0;
+}
+
+.filter-arrow {
+  gap: 10px;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+.explore-btn {
+  &.active {
+    border: 2px solid #222;
+    background-color: #f7f7f7;
+
+  }
+
+  span svg {
+    margin: 0;
+  }
+
+  height: 38px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: $clr3;
+  outline: none;
+  margin: 0;
+  border-radius: 30px;
+  color: #222;
+  font-family: Circular,
+  -apple-system,
+  BlinkMacSystemFont,
+  Roboto,
+  Helvetica Neue,
+  sans-serif;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-right: 8px;
+  margin-top: 210px;
+  margin-bottom: 20px;
+}
+
+.buffer {
+  margin-right: 8px;
+  margin-top: 215px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: #ddd;
+}
+
+.slider-demo-block {
+  width: 440px !important;
+  padding: 2em;
+  padding-top: 1.5em;
+  margin-block: 1.5em;
+  // border: 2px solid #333;
+  border-radius: 8px;
+  color: #222;
+}
+
+.vue-histogram-slider-wrapper {
+  width: 400px;
+  // --primary-color: #0091ff;
+  // --label-color: #0091ff;
+  --holder-color: #dee4ec;
+  --handle-color: #ffffff;
+  --grid-text-color: silver;
+  --line-height: 6px;
+  --font-family: Arial, sans-serif;
+  --font-size: 12;
+  --hist-slider-gap: -30px;
+  --handle-size: 26px;
+}
+
+.irs--round .irs-bar {
+  top: 36px;
+  height: var(--line-height);
+  background-color: #b0b0b0;
+  --line-height: 2px;
+}
+
+.vue-histogram-slider-bar-vue-histogram-5946068d-dfee-48f7-a1eb-5e6ab6cdd8d0 {
+  fill: rgb(176, 176, 176)
+}
+
+.irs--round .irs-line {
+  top: 36px;
+  height: var(--line-height);
+  background-color: var(--holder-color);
+  border-radius: 6px;
+  --line-height: 2px;
+}
+
+.price-filter-container .price-select-container .price-select {
+  height: 56px;
+  width: 168px;
+  background: #fff;
+  border: 0.5px solid hsla(0, 0%, 46.3%, .28);
+  border-radius: 9px;
+}
+
+.price-filter-container .price-select-container .price-select .price-label {
+  text-align: start;
+  margin-inline-start: 12px;
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 20px;
+  color: #717171;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.price-filter-container .price-select-container .price-select .price-change {
+  display: flex;
+  align-items: flex-end;
+  -webkit-margin-start: 12px;
+  margin-inline-start: 12px;
+  font-size: 15px;
+}
+
+input {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #606266;
+  border: none;
+  box-shadow: none;
+  padding: 2px 2px;
+}
+
+.price-filter-container .price-save {
+  padding: 12px 14px;
+  border-top: 0.5px solid #ebebeb;
+
+}
+
+.price-filter-container .price-save .clear {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #222;
+  text-decoration: underline;
+}
+
+.price-filter-container .price-save .save {
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  outline: none;
+  padding: 8px 16px;
+  border: none;
+  background: #222;
+  color: #fff;
+}
+
+
+.price-filter-container .price-save {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-top: 1px solid #ebebeb;
+  margin-bottom: -27px;
+}
+
+.price-filter-container .price-filter {
+  padding: 20px;
+}
+
+.price-filter-container .price-select-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: -14px;
+}
+
+.price-filter-container .avg {
+  text-align: start;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222;
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+
+.vue-histogram-view {
+  z-index: 9;
+}
+
+.irs,
+.irs-line {
+  position: relative;
+  display: block;
+}
+
+.irs-grid {
+  visibility: hidden;
+}
+
+.irs--round .irs-grid-text {
+  visibility: hidden;
+  font-size: 0px;
+}

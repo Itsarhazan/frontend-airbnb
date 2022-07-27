@@ -1,0 +1,176 @@
+.order-details {
+    margin-top: 80px;
+
+    .order-details-container {
+        min-height: 70.5vh;
+        width: 100%;
+        border-radius: 10px;
+
+        svg {
+            margin: 5px 10px 5px 0;
+        }
+
+        .order-date-guest {
+            width: 29vw;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin: 0;
+            color: #3c9e3c;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: Cereal-Medium;
+        }
+
+        button {
+            padding: 0 22.5px;
+            border-radius: 50px;
+            border: none;
+        }
+
+        .rare-stay {
+            padding: 22px 26px;
+            border: 1px solid #b4b4b4;
+            border-radius: 10px;
+            margin: 38px 0 20px 0;
+
+            h4 {
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: inherit;
+                font-family: Cereal-Regular;
+            }
+        }
+
+        .dates-order-container {
+            h2 {
+                margin-bottom: 8px;
+            }
+            .dates-order {
+                display: flex;
+                justify-content: space-between;
+
+                h3 {
+                    padding: 0;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+
+                span {
+                    margin-top: -5px;
+                }
+            }
+        }
+        .guests-order {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            h3 {
+                padding: 0;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            span {
+                margin-top: -5px;
+            }
+        }
+        .btn-edit {
+            padding: 0;
+            margin-top: -10px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        pre {
+            font-size: 15px;
+            width: 200px;
+            margin-top: -20px;
+        }
+
+        // .payment-logos-container {
+
+        // }
+    }
+
+    hr {
+        border: 0.5px solid #e7e7e7;
+    }
+
+    .total-price-order {
+        width: 24vw;
+        height: 400px;
+        padding: 20px;
+        margin-top: 80px;
+        border: 1px solid #b4b4b4;
+        border-radius: 15px;
+
+        .order-img-rate {
+            margin-bottom: 40px;
+        }
+        .order-rate {
+            margin-left: 8px;
+            .stay-name {
+                font-size: 14px;
+            }
+        }
+
+        img {
+            max-height: 120px;
+            max-width: 130px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .msg-charged {
+            font-size: 14px;
+            text-align: center;
+        }
+        .type-pay {
+            font-size: 17px;
+        }
+        .type-price {
+            margin-top: 10px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            text-decoration: underline;
+
+            &:last-child {
+                margin-top: 20px;
+            }
+        }
+
+        .type-price:nth-child(5) {
+            margin-bottom: 15px;
+        }
+        .pay-total {
+            font-weight: bold;
+        }
+        .price-total {
+            font-weight: bold;
+        }
+    }
+    .payment-logo {
+        max-width: 90px;
+        gap: 10px;
+        object-fit: contain;
+        margin: 20px 0;
+
+        &:first-child {
+            max-height: 30px; 
+        }
+        &:nth-child(4) {
+            max-height: 50px; 
+        }
+        &:last-child {
+            max-height: 30px; 
+        }
+    }
+}

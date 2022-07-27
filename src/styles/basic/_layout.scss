@@ -1,0 +1,43 @@
+.details-layout {
+    display: grid;
+    grid-template-columns: minmax(20px, 1fr) minmax(auto, 1120px) minmax(20px, 1fr);
+    >* {
+        grid-column: 2;
+    }
+    >*.full {
+        grid-column: 1 / -1;
+    }
+}
+
+.header-details-layout {
+    display: grid;
+    grid-template-columns: minmax(40px, 1fr) minmax(auto, 1120px) minmax(40px, 1fr);
+    >* {
+        grid-column: 2;
+    }
+    >*.full {
+        grid-column: 1 / -1;
+    }
+}
+
+.orders-layout {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    >* {
+        grid-column: 2;
+    }
+    >*.full {
+        grid-column: 1 / -1;
+    }
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: $layoutPadding 1fr $layoutPadding;
+    >* {
+        grid-column: 2;
+    }
+    >*.full {
+        grid-column: 1 / -1;
+    }
+}

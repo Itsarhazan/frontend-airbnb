@@ -1,0 +1,59 @@
+.order-info {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 10px;
+   align-items: center;
+   text-align: center;
+   padding: 10px 0;
+   border-bottom: 1px solid #e7e6e6;
+
+.user-info {
+text-align: left;
+gap: 15px;
+}
+   .avatar {
+      height: 40px;
+      width: 40px;
+      border-radius: 25px;
+      margin-left: 34px;
+   }
+
+   .stay-name {
+      text-align: left;
+      width: 350px;
+   }
+
+   .status {
+      width: 200px;
+   }
+
+   button {
+      border: none;
+      margin: 2px;
+      border-radius: 30px;
+      &.approve-btn {
+         padding: 10px;
+         background-color: #a5f3d5;
+         color: #1d7452;
+         font-family: Cereal-Bold;
+         font-size: 0.9rem;
+         &:hover {
+            background-color: #6df3bf;
+         }
+      }
+      &.decline-btn {
+         padding: 10px 14px;
+         background-color: #f0afb2;
+         color: #8d2f34;
+         font-family: Cereal-Bold;
+         font-size: 0.9rem;
+         &:hover {
+            background-color: #f1979c;
+         }
+      }
+   }
+}
+
+.pending {
+   background-color: #f0efef;
+}

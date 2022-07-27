@@ -1,0 +1,111 @@
+/* HERO */
+
+.home-page {
+  min-height: 100vh;
+}
+
+.main-hero {
+  background-image: url(../assets/Images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+  background-position: 50%;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-hero h1 {
+  color: #ffffff;
+  font-family: Cereal-Bold, sans-serif;
+  font-size: 38px;
+  text-shadow: 1px 1px 2px #000;
+  margin: 32px 0px;
+}
+
+.main-hero button {
+  margin-bottom: 100px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  height: 55px;
+  text-align: center;
+  width: 10rem;
+}
+
+.main-hero button h3 {
+  font-family: "Cereal-Bold", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  background-color: $clr2;
+  background-image: linear-gradient(45deg, $clr2, $clr1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* GALLERIES */
+
+.gallery-title {
+  font-family: "Cereal-Bold", sans-serif;
+  font-size: 33px;
+  margin-bottom: 48px;
+}
+
+.home-page-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-bottom: 95px;
+
+  h3 {
+    font-family: "Cereal-Bold", sans-serif;
+    margin: 19px 0px;
+  }
+}
+
+.home-page-gallery img {
+  cursor: pointer;
+  margin: 0;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+
+/* HOST */
+
+.home-page .host-container {
+  background-image: url("@/assets/Images/become-host.jpg");
+  background-position: 30%;
+  background-size: cover;
+  height: 90vh;
+
+  h1 {
+    font-family: "Cereal-Bold", sans-serif;
+  }
+
+  .host-cta {
+    color: $clr5;
+    font-family: "Cereal-Bold", sans-serif;
+    font-size: 48px;
+    margin: 50px 0px 0px 80px;
+
+    button {
+      font-family: "Cereal-Bold", sans-serif;
+      margin-top: 10px;
+      justify-self: flex-end;
+      font-size: 16px;
+      border: none;
+      color: $clr3;
+      background-color: $clr5;
+      padding: 14px 24px;
+      border-radius: 8px;
+      max-width: 170px;
+    }
+  }
+}
